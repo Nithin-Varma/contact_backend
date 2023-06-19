@@ -14,7 +14,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use('/api/contacts', Routes)
+app.use('/api/contacts', Routes)                                                                                                                                                                                                                                
 app.use('/api/user', userRoutes)
 app.use(ErrorHandler)
 
