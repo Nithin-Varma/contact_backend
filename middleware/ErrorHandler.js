@@ -48,5 +48,4 @@ const ErrorHandler = (err, req, res, next) => {
             break;
     }
 }
-
 export default ErrorHandler;
